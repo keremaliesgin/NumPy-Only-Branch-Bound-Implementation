@@ -1,5 +1,7 @@
 # %%
 import numpy as np
+
+# only used to formulate sudoku (it is one of my older models)
 import scipy.sparse as sp
 
 # %%
@@ -312,5 +314,6 @@ def sudoku(N):
 
 board = sudoku(4)
 print(board)
+
 
 
